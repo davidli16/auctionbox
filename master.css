@@ -1,0 +1,67 @@
+/* @override 
+	http://www.stanford.edu/~ghiblian/cgi-bin/master.css
+*/
+
+html { background: #5e3949 url(img/background.jpg) no-repeat fixed; }
+body { color: #eee; font: .7em "Lucida Grande", Lucida, Verdana, sans-serif; padding: 40px 0 60px; }
+table { width: 100%; }
+th, td { padding: 5px; vertical-align: top;}
+input, textarea { background: #b790a0; color: #eee; margin: 0 5px; color: #333; border: 1px solid #5e3949;}
+select { background: #b790a0;  color: #eee; color: #333; border: 1px solid #5e3949; }
+a { color: #b790a0; text-decoration: none; }
+thead { border-bottom: 1px solid #5e3949; font-weight: bold; text-align: center; }
+h1 { background: url(img/normal-bg.png); padding: 10px; margin: 20px 0 10px; text-align: center; font-size: 13px; font-weight: bold; color: #fff; font-variant: small-caps; }
+
+/* General Settings*/
+.clear { clear: both; }
+
+/* Global Elements */
+#header { background: url(img/header-bg.png); height:40px; line-height: 40px; position: fixed; width: 100%; top: 0px; }
+
+#login { margin-left: 15px; }
+#menu ul { position: absolute; right: 15px; text-align: right; list-style: none; }
+#menu ul li { display: block; float: left; height: 50px; margin-left: 30px; }
+
+#content { padding: 0 10px; }
+
+#footer { position: fixed; bottom: 0; width: 100%; text-align: center; }
+#footer table { background: url(img/header-bg.png); width:700px; margin: 0 auto; }
+#footer table td { vertical-align: middle; }
+
+#filter-bar label, #footer label { display: block; margin-bottom: 5px; }
+
+/* General Elements */
+
+/* Specific Elements */
+#create-form .heading { font-weight: bold; width: 10%; border-right: 1px solid #5e3949; }
+#create-form .heading { width: 30%; }
+#create-form input { padding: 5px; }
+#create-form textarea { width: 100%; height: 300px; }
+#create-form table tr, .create-form table td { padding: 0 10px; }
+
+#error { cursor: pointer; }
+#main-search { background: url(img/main-box.png) no-repeat; position: absolute; text-align: center; width: 624px; height: 372px; left: 50%; top: 50%; margin-top: -170px; margin-left: -312px;}
+#main-search input.search-box { background: transparent; border: 0; margin-top: 186px; margin-bottom: 20px; font-size: 18px; text-align: center; color: #eee;}
+
+#item-info th, #item-info td { padding: 10px; }
+#item-info .heading { font-weight: bold; width: 10%; border-right: 1px solid #5e3949; }
+
+#listing .item { width: 70%; }
+#listing .bids, #listing .status { text-align: center; } #listing .currently { text-align: center; width: 10%; }
+#listing h2 { font-weight: bold; }
+span.note, #listing h2 span { color: #ccc; font-weight: normal; margin-left: 10px; font-variant: small-caps; font-size: 12px; }
+#bids tr:hover, #listing tr:hover { background: url(img/selection-bg.png); cursor: pointer; }
+#bids { width: 100%; margin: 0 auto; text-align: center; }
+#bids th { text-align: center; }
+.spanning { text-align: center; font-weight: bold; padding: 15px;}
+
+#narrow-content { width: 700px; margin: 0 auto; }
+
+.category-link { margin: 0 5px; }
+
+#filter-bar, #place-bid { text-align: center; background: url(img/selection-bg.png); margin: 20px auto; width: 400px; padding: 10px; vertical-align: middle; }
+#filter-bar { text-align: center; width: 700px; }
+#filter-bar td { vertical-align: middle; }
+#filter-bar input { width: 40px; }
+
+.message { background: url(img/message-box.png) no-repeat; position: absolute; z-index: 100; text-align: center; left: 50%; top: 50%; width: 414px; height: 208px; margin-top: -100px; margin-left: -242px; color: #333; font-size: 18px; padding: 55px 40px 0;}
